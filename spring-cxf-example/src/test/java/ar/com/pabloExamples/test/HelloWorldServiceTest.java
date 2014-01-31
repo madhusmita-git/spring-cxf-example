@@ -20,7 +20,7 @@ public class HelloWorldServiceTest {
 	@Test
 	public void helloWorldClientTest() {
 		
-		helloWorldClient.sayHello();
+		helloWorldClient.sayHello("Test");
 	}
 
 }
